@@ -1,4 +1,5 @@
 import React from "react";
+import NavigationPage from "./NavigationPage.jsx";
 
 const LoginPage = () => {
   const [id, setId] = React.useState("");
@@ -6,6 +7,7 @@ const LoginPage = () => {
 
   return (
     <>
+      <NavigationPage />
       <header>로그인</header>
       <article>
         <form>

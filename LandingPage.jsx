@@ -1,4 +1,5 @@
 import React from "react";
+import NavigationPage from "./NavigationPage.jsx";
 
 const LandingPage = () => {
 
@@ -6,17 +7,7 @@ const LandingPage = () => {
 
   return (
     <>
-      <header>
-        <div>제이마켓에 환영합니다</div>
-      </header>
-
-      <nav>
-        <ul id="menu">
-          <li className="subPage">Home</li>
-          <li className="subPage">Login</li>
-          <li className="subPage">Donation</li>
-        </ul>
-      </nav>
+      <NavigationPage />
       <article>
         <form>
           <input type="text" placeholder="검색어를 입력하세요" />
