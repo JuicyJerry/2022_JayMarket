@@ -2,11 +2,36 @@
 <meta charset="UTF-8">
 <title>JayMarket</title>
 
-<head></head>
+<head>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
 
 <body>
-    <script>
+    <div id="root"></div>
+    <script type="text/babel">
+        class JayMarket extends React.Component {
+            constructor() {
+                super();
+                this.state = {
+                    // ...
+                }
+            }
 
+            render() {
+                console.log("렌더링");
+
+                return (
+                    <React.Fragment>
+                        <div>제이마켓에 환영합니다</div>
+                    </React.Fragment>
+                )
+            }
+        }
+    </script>
+    <script type="text/babel">
+        ReactDOM.render(<JayMarket />, document.querySelector("#root"));
     </script>
 </body>
 
