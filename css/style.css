@@ -1,0 +1,101 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* navigation page*/
+#nav {
+  /* background-color: #ff0000; */
+}
+
+#menu {
+  margin-top: 18px;  
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subPage {
+  margin: 25px 50px 0px 50px;
+  font-size: 35px;
+}
+
+
+/* login page*/
+#header {
+  /* background-color: red; */
+  margin-top: 24rem;
+  text-align: center;
+  font-size: 40px;
+}
+
+#loginWrap {
+  /* background-color: cornflowerblue; */
+  height: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearBtn {
+  /* border-radius: 2px; */
+  background-color: white;
+}
+
+#loginBtn {
+  /* background-color: cornflowerblue; */
+  display: flex;
+  justify-content: space-between;
+  width: 33rem;
+  margin-top: 1.2rem;
+}
+
+
+#loginBtn button {
+  width: 8rem;
+  height: 5rem;
+  font-size: 25px;
+  font-weight: bold;
+  opacity: 1;
+  border-radius: 50px;
+  margin-top: 10px;
+}  
+
+#loginBtn button:first-child {
+  background-color: cornflowerblue;
+}
+
+#loginBtn button:nth-child(2) {
+  background-color: red;
+}
+
+#loginBtn button:last-child {
+  background-color: yellow;
+}
+
+.loginForm {
+  display: flex;
+}
+
+.loginForm input {
+  width: 30rem;
+  height: 4rem;
+}
+
+.loginForm input::placeholder {
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+}
+
+.loginForm button {
+  width: 3rem;
+  height: 4rem;
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+}
+
+
+
