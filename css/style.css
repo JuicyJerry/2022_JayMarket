@@ -98,4 +98,56 @@
 }
 
 
+/* Landing page*/
+#landingMotherWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: crimson;
+  height: 100rem;
+}
 
+#searchWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40rem;
+  /* height: 30rem; */
+}
+
+#searchWrap form  {
+  display: flex;
+  margin-top: 10rem;
+}
+
+#searchWrap form input {
+  width: 70rem;
+  height: 5rem;
+}
+
+#searchWrap form input::placeholder {
+  font-size: 30px;
+  font-weight: bold;
+  color:black;
+}
+
+#searchWrap form button {
+  width: 7rem;
+  height: 5rem;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+}
+
+#resultWrap {
+  /* background-color: black; */
+  width: 60rem;
+  height: 60rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 50rem;
+  font-weight: bold;
+  font-size: 30px;
+  border: black solid 3px;
+}

@@ -8,18 +8,20 @@ const LandingPage = () => {
   return (
     <>
       <NavigationPage />
-      <article>
-        <form>
-          <input type="text" placeholder="검색어를 입력하세요" />
-          <button type="reset" value="X"></button>
-          <button>입력</button>
-        </form>
+      <article id="landingMotherWrap">
+        <article id="searchWrap">
+          <form>
+            <input type="text" placeholder="검색어를 입력하세요" />
+            <button type="reset">X</button>
+            {/* <button>입력</button> */}
+          </form>
 
-        <section>
+        </article>
+        <article id="resultWrap">
           <p>
             결과을 기다려주세요
           </p>
-        </section>
+        </article>
       </article>
     </>
   )
