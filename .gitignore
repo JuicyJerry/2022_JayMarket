@@ -1,1 +1,4 @@
 node_modules
+aws-ec2-keypair.pem
+aws-ec2-keypair-back.pem
+.env
