@@ -1,3 +1,12 @@
-node_modules
+# pem
+ec2-aws-jaymarket.pem 
 aws-ec2-JayMarket-front.pem
+window-aws-ec2-front.pem
+
+# modules
+node_modules
+
+# env
 .env
+
+# ...
