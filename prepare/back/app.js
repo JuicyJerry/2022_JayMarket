@@ -18,6 +18,8 @@ app.get("/api", (req, res) => {
   res.send("hello jay");
 })
 
+
+
 app.get("/posts", (req, res) => {
   res.json([
     { id: 1, content: "hello" },
@@ -28,6 +30,6 @@ app.get("/posts", (req, res) => {
 
 app.use("/post", postRouter); // 에 의해서 /post-prefix가 빠져있다
 
-app.listen(3065, () => {
+app.listen(8080, () => {
   console.log("서버 실행 중");
 })

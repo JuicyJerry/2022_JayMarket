@@ -1,7 +1,11 @@
-{
+const dotenv = require("dotenv");
+
+dotenv.config();
+
+module.export = {
   "development": {
     "username": "root",
-    "password": "1qasw234~!",
+    "password": process.env.DB_PASSWORD,
     "database": "jayMarket",
     "host": "127.0.0.1",
     "port": "3306",
