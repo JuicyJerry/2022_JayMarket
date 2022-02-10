@@ -5,7 +5,8 @@
   "main": "App.js",
   "scripts": {
     "dev": "webpack serve --env development",
-    "build": "webpack --progress --mode production"
+    "build": "webpack --progress --mode production",
+    "start": "pm2 start app"
   },
   "repository": {
     "type": "git",
