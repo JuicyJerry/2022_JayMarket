@@ -22,7 +22,7 @@ const JayMarket = ({ Component }) => {
         <title>JayMarket</title>
       </Head>
       <Layout>
-        <Header style={{ "background-color": "#5f0080" }}>
+        <Header style={{ "backgroundColor": "#5f0080" }}>
           {/* <Title style={{ "color": "red", "background-color": "##91d5ff" }}>Hello, JayMarket</Title> */}
           <Button href="/" style={{ "backgroundColor": "transparent", "color": "white", "border": "0px", "fontSize": "24px" }}>Hello, JayMarket</Button>
           {/* <h1 style={{ "color": "white" }}>Hello, JayMarket</h1> */}
@@ -30,7 +30,7 @@ const JayMarket = ({ Component }) => {
         <Content>
           <Component />
         </Content>
-        <Footer style={{ "background-color": "black", "position": "fixed", "bottom": "0", "width": "100%" }}>
+        <Footer style={{ "backgroundColor": "black", "position": "fixed", "bottom": "0", "width": "100%" }}>
           <a href="https://juicyjerry.tistory.com/" target="_blank" rel="noreffer noopener noreferrer" >Made by Jay</a>
         </Footer>
       </Layout>

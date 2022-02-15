@@ -70,23 +70,3 @@ const LoginPage = () => {
 }
 
 export default LoginPage;
-/*
-// {/* <Form className="loginForm">
-// {/* <input type="text" name="id-input" placeholder="ID를 입력하세요" onChange={ } /> */
-// <input type="text" name="id-input" placeholder="ID를 입력하세요" />
-// {/* {value.length > 0 && <button type="reset" className="clearBtn" ></button>} */ }
-// </Form >
-
-//   {/* <form className="loginForm" onReset={ }> */ }
-//   < Form className = "loginForm" >
-//     {/* <input type="password" name="passowrd-input" placeholder="Password를 입력하세요" onChange={ } /> */ }
-//     < input type = "password" name = "passowrd-input" placeholder = "Password를 입력하세요" />
-//       {/* {value.length > 0 && <button type="reset" className="clearBtn"></button>} */ }
-// </Form >
-
-//   {/* <form id="loginBtn" onSubmit={ } > */ }
-//   < Form id = "loginBtn" >
-// <input type="submit" name="로그인" value="로그인" />
-// <input type="button" name="둘러보기" value="둘러보기" />
-// <input type="submit" name="구글" value="구글" />
-// </Form > * /}
