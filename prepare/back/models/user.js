@@ -6,12 +6,8 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false, // 필수
       unique: true, // 고유한 값
     },
-    nickname: {
-      type: DataTypes.STRING(30),
-      allowNull: false, // 필수
-    },
     password: {
-      type: DataTypes.STRING(),
+      type: DataTypes.STRING(100), // 암호화를 하면 길어진다
       allowNull: false, // 필수
     },
   }, {
@@ -19,9 +15,9 @@ module.exports = (sequelize, DataTypes) => {
     collate: "utf8_general_ci", // 한글 저장
   });
 
-  User.associate = (db) => {
-    db.User.hasMany(db.Post);  // 사람이 포스트를 여러개 가질 수 있다
-    db.User.belongsToMany(db.Post, { through: "Like", as: "Liked" }); // 중간 테이블 이름 정하기 { through: "Like"}
+  User.associate = (db) => { // 관계는 associate에 적는다
+    // db.User.hasMany(db.Post);  // 사람이 포스트를 여러개 가질 수 있다
+    // db.User.belongsToMany(db.Post, { through: "Like", as: "Liked" }); // 중간 테이블 이름 정하기 { through: "Like"}
   };
 
   return User;
